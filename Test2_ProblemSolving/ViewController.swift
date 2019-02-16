@@ -6,7 +6,9 @@
 //  Copyright © 2561 AppMan. All rights reserved.
 //
 
-class ViewController: UIViewController {
+import UIKit
+
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var boxView: UIView!
 
