@@ -14,6 +14,7 @@
 		2E3DC2C12090E74F00328142 /* libAgentMate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3DC2C02090E74F00328142 /* libAgentMate.a */; };
 		2E3DC2CB2091974800328142 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3DC2B92090DA0900328142 /* MBProgressHUD.framework */; };
 		2EB58749EA56DB5D9BC63E41 /* Pods_Test2_ProblemSolving.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A9FADBD12947DD7EEACA84 /* Pods_Test2_ProblemSolving.framework */; };
+		500CC579221804E80065186E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DC2A12090C77200328142 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -217,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500CC579221804E80065186E /* AppDelegate.swift in Sources */,
 				2E3DC2A42090C77200328142 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
