@@ -11,11 +11,26 @@
 		2E3DC2A72090C77300328142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DC2A52090C77300328142 /* Main.storyboard */; };
 		2E3DC2A92090C77400328142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DC2A82090C77400328142 /* Assets.xcassets */; };
 		2E3DC2AC2090C77400328142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3DC2AA2090C77400328142 /* LaunchScreen.storyboard */; };
-		2E3DC2CB2091974800328142 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3DC2B92090DA0900328142 /* MBProgressHUD.framework */; };
 		2EB58749EA56DB5D9BC63E41 /* Pods_Test2_ProblemSolving.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A9FADBD12947DD7EEACA84 /* Pods_Test2_ProblemSolving.framework */; };
 		500CC579221804E80065186E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DC2A12090C77200328142 /* AppDelegate.swift */; };
 		500CC57A221805820065186E /* libAgentMate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3DC2C02090E74F00328142 /* libAgentMate.a */; };
+		500CC584221807240065186E /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3DC2B92090DA0900328142 /* MBProgressHUD.framework */; };
+		500CC585221807240065186E /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3DC2B92090DA0900328142 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		500CC586221807240065186E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				500CC585221807240065186E /* MBProgressHUD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0977064CD6C2DA69E9B88160 /* Pods-Test2_ProblemSolving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2_ProblemSolving.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test2_ProblemSolving/Pods-Test2_ProblemSolving.debug.xcconfig"; sourceTree = "<group>"; };
@@ -39,8 +54,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				500CC57A221805820065186E /* libAgentMate.a in Frameworks */,
-				2E3DC2CB2091974800328142 /* MBProgressHUD.framework in Frameworks */,
 				2EB58749EA56DB5D9BC63E41 /* Pods_Test2_ProblemSolving.framework in Frameworks */,
+				500CC584221807240065186E /* MBProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +133,7 @@
 				2E3DC29B2090C77200328142 /* Frameworks */,
 				2E3DC29C2090C77200328142 /* Resources */,
 				80A563D313F4D4E848AE8517 /* [CP] Embed Pods Frameworks */,
+				500CC586221807240065186E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
